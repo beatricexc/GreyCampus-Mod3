@@ -20,10 +20,14 @@ They are mostly defined by 3 parameters:
  ##### *Logistic Regression* works with binomial distribution and it does not output the relationship between x and y, x != y
 
    -the values are between 0 to 1 and there is a treshold that comes in between, therefore anything above the treshold is a *yes* and anything below the treshold is a *no*
+   
    -we use something called the odds ratio : P / (1-p) 
+   
         log(odds) = log(P/(1-p))
         logit(p) = log(P/(1-p))
+        
     -becaue we're working with binomial distribution, we need to choose a link function *logit*
+    
     -these parameteres are chosen to maximise the propability(likelyhood) of the sample value 
         
         
