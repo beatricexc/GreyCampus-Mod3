@@ -29,7 +29,9 @@ They are mostly defined by 3 parameters:
      
 - because we're working with binomial distribution, we need to choose a link function *logit*
     
--these parameteres are chosen to maximise the propability(likelyhood) of the sample value 
+- these parameteres are chosen to maximise the propability(likelyhood) of the sample value 
+
+**Problems** : over fitting and under fitting 
         
         
 - Quantile Regression
