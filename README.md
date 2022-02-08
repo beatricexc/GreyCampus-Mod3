@@ -12,7 +12,7 @@ They are mostly defined by 3 parameters:
 2. shape of the regression line (size) - spread of the data 
 3. Type of dependent variables
 
-- Polynomyial : when the data points have a curve at the edge, we use polynomial
+#### *Polynomyial* : when the data points have a curve at the edge, we use polynomial
 
 ![image](https://user-images.githubusercontent.com/72341578/152889483-087ee50c-9f8c-431e-9ec6-0df406ffcc59.png)
 
