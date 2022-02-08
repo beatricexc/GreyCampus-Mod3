@@ -58,6 +58,7 @@ Ridge is a technique/method for analyzing multiple regression data that suffer f
 
                   y = mx + c
                   DB = m(age) + m(salary) + C + Error
+                  
           
 2. Consistency 
 - Principal Component Regression (PCR)
