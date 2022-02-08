@@ -36,7 +36,6 @@ They are mostly defined by 3 parameters:
 **Problems** : over fitting and under fitting 
         
         
-- Quantile Regression
 #### Ridge Regression- used when the data has high levels of multi-collinearity 
 ! multicolinearity = a situation in which more than two explanatory variables in a multiple regression model are highly linearly correlated
 Ridge is a technique/method for analyzing multiple regression data that suffer from multicollinearity. By adding a degree of bias to the regression estimates, ridge regression reduces the standard errors.
@@ -63,4 +62,15 @@ Ridge is a technique/method for analyzing multiple regression data that suffer f
                   
           
 2. Consistency 
-- Principal Component Regression (PCR)
+
+
+#### Principal Component Regression (PCR)
+Steps:
+- performs a PCA on observed data , select the subset based on some selection/criteria
+- regress observed the outcomes 
+- transform the vector into covariance /PCR estimator
+- usually used when the data is too large and you want to reduce it to 2 dimmensions
+
+### Simple Linear Reg
+Used to find the relationship between Single Independent Variable and Corresponding Dependent Varialbe 
+ 
