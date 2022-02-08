@@ -1,7 +1,7 @@
 # GreyCampus-Mod3
 
 Linear Regression is used for predictive analysis
-- when there is a growth in y, there is a growth in x and viceversa (sales/marketing..when the marketing increases, the sales increase as well)
+- when there is a growth in y, there is a growth in x and viceversa (sales/marketing..when the marketing expenditure increases, the sales increase as well)
 - it is always the dependent which changes based on the independent values (logic!)
 - we call it linear regression every time there is a change in x with repect to y
 - parallel lines are not linear regressions x || o , where o is the fitted line
@@ -35,7 +35,29 @@ They are mostly defined by 3 parameters:
         
         
 - Quantile Regression
-- Ridge Regression
-- Lasso Regression
-- Elastic Net Regression
+#### Ridge Regression- used when the data has high levels of multi-collinearity 
+! multicolinearity = a situation in which more than two explanatory variables in a multiple regression model are highly linearly correlated
+Ridge is a technique/method for analyzing multiple regression data that suffer from multicollinearity. By adding a degree of bias to the regression estimates, ridge regression reduces the standard errors.
+- 2 errors occur and they are caused by bis and variance
+- to fix the errors, we use a shringage paramater that results in low variance.
+- ridge does not take the vlaues to 0 
+- regularization method L2
+
+#### Lasso Regresion : least absolute shrinkage and selection operator
+- lasso uses absolute values for penalizing as oppossed to ridge 
+- it can shrink to 0 also
+- L1 regularization 
+- the higher the correlation the greater is the shrink to 0
+
+
+#### Elastic Net Regression : L1+ L2
+- hybrid regression
+- Gauss Markov Theorem / Assumptions : in linear reg model, then the OLS ( **O**rdinary **L**east **S**quares) will be BLUE (**B**est **L**inear **U**nbiassed **E**stimator)
+!NOTE : There are 6 assumptions under Gauss Markov Theorem: 
+1. Linearity of parameteres 
+
+                  y = mx + c
+                  DB = m(age) + m(salary) + C + Error
+          
+2. Consistency 
 - Principal Component Regression (PCR)
